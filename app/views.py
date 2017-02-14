@@ -2,7 +2,7 @@ from app import app
 import redis,json
 from flask import jsonify,render_template,request
 
-db = redis.Redis('localhost',port='6379',password='b422c00b9e9f2ee89d6498a6376df0d1351bfc998eed3751ecbaeb436d166c64')
+db = redis.Redis('localhost',port='6379',password='')
 
 @app.route('/')
 @app.route('/index')
